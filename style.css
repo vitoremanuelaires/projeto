@@ -15,7 +15,7 @@
 }
 
 .light {
-  --text-color: black;
+  --text-color: rgb(0, 0, 30);
   --bg-url: url(./assets/bg-mobile-light.jpg);
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
@@ -26,7 +26,6 @@
 
 body {
   background: var(--bg-url) no-repeat top center/cover;
-  height: 100vh;
 }
 
 body * {
@@ -36,7 +35,7 @@ body * {
 
 #container {
   width: 100%;
-  max-width: 588px;
+  max-width: 450px;
   margin: 56px auto 0px;
   padding: 0 24px;
 }
@@ -57,6 +56,7 @@ body * {
   font-weight: 500;
   line-height: 24px;
   margin-top: 8px;
+  color: var(--text-color)
 }
 
 
@@ -148,7 +148,7 @@ ul li a:hover {
 
   padding: 24px 0;
 
-  font-size: 24px;
+  font-size: 35px;
 }
 
 #social-links a {
@@ -170,6 +170,7 @@ ul li a:hover {
 footer {
   padding: 24px 0;
   text-align: center;
+  color: white;
 }
 
 /* media queries */
